@@ -1,0 +1,47 @@
+
+body{
+margin:0;
+font-family:Segoe UI,sans-serif;
+background:linear-gradient(#fff7fb,#fff);
+color:#555;
+text-align:center;
+}
+.screen{
+height:100vh;display:flex;justify-content:center;align-items:center;
+}
+.envelope{
+background:white;padding:40px;border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);cursor:pointer;
+animation:float 2s infinite ease-in-out;
+}
+@keyframes float{
+50%{transform:translateY(-10px);}
+}
+.hidden{display:none;}
+.hero{
+padding:80px 20px;
+background:linear-gradient(180deg,#ffe7f2,#fff);
+}
+.hero h1{font-size:3rem;}
+.card{
+background:white;
+margin:20px;
+padding:25px;
+border-radius:20px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+.btn{
+background:#e8a8c7;
+padding:12px 20px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+display:inline-block;
+}
+#countdown{
+font-size:1.5rem;font-weight:bold;
+}
+.final{
+padding:60px 20px;
+font-size:1.2rem;
+}
